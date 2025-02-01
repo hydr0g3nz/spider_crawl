@@ -1,0 +1,10 @@
+[package]
+name = "spider_crawler_test2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+spider = { version = "2", features = ["sync","cache_chrome_hybrid","chrome","sitemap"] }
+tokio = { version = "1.36",  features = ["io-std", "rt"] }
+spider_utils = {version = "2.27.28", features = ["transformations"] }
+
