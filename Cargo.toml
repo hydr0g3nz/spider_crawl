@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-spider = { version = "2", features = ["sync","cache_chrome_hybrid","chrome","sitemap"] }
+spider = { version = "2", features = ["sync","cache_chrome_hybrid","chrome","sitemap","smart","chrome_intercept"] }
 tokio = { version = "1.36",  features = ["io-std", "rt"] }
 spider_utils = {version = "2.27.28", features = ["transformations"] }
 
